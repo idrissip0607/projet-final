@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+:root{
+    --bs-primary: #0d6efd;
+    --bs-light: #f8f9fa;
+    --bs-success: #198754;
+    --bs-warning: #ffc107;
+    --bs-info: #0dcaf0;
+}
+.navlihover:hover{
+    color: var(--bs-primary);
+    border-bottom: 2px solid var(--bs-primary);
+    transition: .2s ease;
+}
+
+
+.logohove{
+    color: var(--bs-primary);
+    transition: .4s ease;
+}
+
+
+
+.logohove:hover{
+    color: #f5782a;
+    
+}
+
+.btn-close-white:hover{
+    background-color: var(--bs-primary);
+    color: white;
+}
+
+.btn-close-white{
+    color: var(--bs-primary);
+}
+
+#Programme{
+    background-color: var(--bs-light);
+    padding-top: 20px;
+}
+
+#Evenements{
+    background-color: var(--bs-light);
+    padding-bottom: 20px;
+    
+}
+
+
+
+.cardpadding{
+    padding: 50px;
+}
+
+.txt-height{
+    line-height: 30px;
+}
+
+.btnscience:hover{
+    background-color: var(--bs-success);
+    color: white;
+}
+
+.btnscience{
+    color: var(--bs-success);
+}
+
+.card{
+    height: 100%;
+}
+
+.navbar.position-sticky {
+  z-index: 1020; /* supérieur aux cards Bootstrap */
+}
+
+.bordure{
+    border-left: 4px solid var(--bs-primary);
+    border-radius: 1rem;
+}
+
+.bordure:hover{
+    border-left: 4px solid #f5782a;
+    transition: .3s ease;
+}
+
+.progress{
+    height: 5px;
+}
+
+.btngest{
+    color: var(--bs-warning);
+}
+
+.btngest:hover{
+    background-color: var(--bs-warning);
+}
+
+.green{
+    border-left: 4px solid var(--bs-success);
+}
+
+.quarante-cinq{
+    width: 45%;
+}
+
+.cinquante{
+    width: 50%;
+}
+
+.yellow{
+    border-left: 4px solid var(--bs-warning);
+}
+
+.skyblue{
+    border-left: 4px solid var(--bs-info);
+}
+
+.bggrad{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    padding: .5rem .9rem;
+    border-radius: 1rem;
+}
+
+.footericon{
+    color: #6c757d;
+}
+
+.footericon:hover{
+    color: #f5782a;
+}
+
+footer{
+    border-top: 1px solid #6c757d5a;
+}
+
+
+
+
+
