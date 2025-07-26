@@ -148,6 +148,11 @@ footer{
     transform: translateY(0);
 }
 
+.card:hover{
+   transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.15);
+  transition: .5s ease;
+}
 
 
 
